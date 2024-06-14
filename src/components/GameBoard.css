@@ -1,0 +1,30 @@
+.gameboard {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.inside-gameboard {
+  list-style: none;
+  padding: 0;
+}
+.gameboard-buttons {
+  margin: 1.5rem;
+  height: 5rem;
+  width: 5rem;
+  background-color: lightblue;
+  border-radius: 0.7rem;
+  border: none;
+  font-size: 4rem;
+  border: solid rgb(74, 74, 232);
+}
+.gameboard-with-playername {
+  background-color: brown;
+  border: solid rgb(74, 74, 232);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem;
+  position: relative;
+}

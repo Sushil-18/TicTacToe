@@ -1,0 +1,34 @@
+@keyframes lay {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+
+  position: absolute;
+  background-color: brown;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  animation: lay 2s;
+}
+.game-over__heading {
+  margin: 0;
+}
+.winner__player {
+  margin: 0;
+}
+
+.rematch__button {
+  margin: 0;
+  border: solid rgb(240, 240, 131);
+  border-radius: 0.3rem;
+}

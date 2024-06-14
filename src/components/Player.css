@@ -1,0 +1,24 @@
+#list-items {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+#list-items.active {
+  border: solid rgb(178, 178, 54);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  animation: pulse 2s infinite ease-in-out;
+}
+.player-elements {
+  display: flex;
+  gap: 1rem;
+}
+.button {
+  border-radius: 0.5rem;
+  border: solid rgb(73, 237, 123);
+  height: 1.5rem;
+}
+.playername-input {
+  width: 4rem;
+  border-radius: 0.2rem;
+}
